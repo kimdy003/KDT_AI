@@ -1,0 +1,122 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang='ko'>
+    <head>
+        <link rel='stylesheet' href = "{% static 'css/style.css' %}">
+        <title>Monthly Project</title>
+        <script src="https://kit.fontawesome.com/5ad4e7ea8a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class='navbar'> 
+            <div style="color:lightgoldenrodyellow; font-size: 50px;"><i class="fas fa-hotel"></i></div>
+            
+            <div>
+            <p class='Ho'>Hotel booking domand</p>
+            <ul class='navbar__menu'>
+                <li><i class="fas fa-database"><a href="https://www.kaggle.com/jessemostipak/hotel-booking-demand" target="_blank">Data</a></i></li>
+                <li><i class="fas fa-database"><a href="/My_EDA" target="_blank">Note</a></i></li>
+            </ul>
+            </div>
+
+            <ul class='navbar__icon'>
+                <li><a href="https://github.com/kimdy003" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://kd-codebook.tistory.com" target="_blank"><i class="fab fa-blogger"></i></a></li>
+            </ul>
+        </nav>
+
+
+        <div class='cont'>
+            <h1>데이터 상관관계</h1>
+            <div>
+                <div>
+                    <img width="900px" src="{% static 'image/0.png' %}" alt="">
+                </div>
+            </div>
+
+            <div style="margin-bottom: 2%;">
+                <h2>lead_time, is_canceled 사이의 관계가 있다.</h2>
+                <h2>previout_cancellations , is_canceled 사이의 관계가 있다.</h2>
+                <h2>booking_changes, is_canceled 사이의 관계가 있다.</h2>
+            </div>
+        </div>
+
+        <div class='cont'>
+            <h1> I. is_canceled column</h1>
+            <div>
+                <img width="500px" src="{% static 'image/0-1.png' %}" alt="">
+            </div>
+            <div style="margin-bottom: 2%;">
+                <h2>취소를 안한 사람들이 많긴하다.</h2>
+                <h2>호텔들이 서비스를 잘하고 있는 듯</h2>
+            </div>
+        </div>
+
+        <div class='cont'>
+            <h1>II. lead_time</h1>
+            <h2>예약 날짜와 도착 날짜가 짧을수록 (= 급하기 예약할 수록) 취소하는 사람들이 많을 것이다.</h2>
+            <div>
+                <div>
+                    <img width="500px" src="{% static 'image/1.png' %}" alt="">
+                </div>
+            </div>
+            <h2 style="margin-bottom: 2%;">lead_time이 작을 수록(= 급하게 예약할수록) 예약을 취소하는 사람들이 많다.</h2>
+        </div>
+
+        <div class='cont'>
+            <h1>III. booking_changes</h1>
+            <h2>예약을 변경하는 횟수가 적을 수록 취소하는 사람들이 많을 것이다.</h2>
+            <div>
+                <div>
+                    <img width="500px" src="{% static 'image/2.png' %}" alt="">
+                </div>
+            </div>
+            <div style="margin-bottom: 2%;">
+                <h2>예약을 변경하는 횟수가 적을 수록 취소하는 사람들이 많다.</h2>
+                <h2>예약을 변경할 수록 사람 심리가 미안해져서 그 호텔에 그대로 지낼거 같기 때문에</h2>
+            </div>
+        </div>
+
+        <div class='cont'>
+            <h1>IV. arrival_data_month</h1>
+            <h2>어느 달에 예약을 취소하는 사람들이 많을까?</h2>
+  
+            <div>
+                <img width="500px" src="{% static 'image/3.png' %}" alt="">
+            </div>
+                <h2>8월에 가장 많이 예약을 했고, 11월 부터 예약 수가 떨어지더니 1월에 최저를 기록했다. </h2>
+                <h2 style="margin-bottom: 3%">그리고 2월 부터는 다시 증가하는 막대그래프를 볼 수 있다.</h2>
+
+            <div>
+                <img width="500px" src="{% static 'image/3-1.png' %}" alt="">
+            </div>
+
+            <h2 style="margin-top: 1%;"> 4월과 6월에 취소하는 사람이 제일 많기 때문에 호텔 입장에서는 이 기간에 빡세게 일해야한다. </h2>
+            <h2 style="margin-bottom: 2%;">그리고 1월과 11월에는 예약을 취소하는 사람이 거의 없다</h2>
+        </div>
+
+        <div class='cont'>
+            <h1>V. adults, children, babies </h1>
+            <h2>아이를 많이 데려오면 예약을 취소하는 사람이 많을 것이다.</h2>
+            
+            <div style="flex: 1;">
+                <div>
+                    <img width="500px" src="{% static 'image/4-2.png' %}" alt="">
+                </div>
+                <div>
+                    <img width="500px" src="{% static 'image/4-3.png' %}" alt="">
+                </div>
+                <div>
+                    <img width="500px" src="{% static 'image/4-4.png' %}" alt="">
+                </div>
+            </div>
+            <div style="margin-bottom: 2%; margin-top: 1%;">
+                <h2>children, babies에는 '0'명만 데리고 온 사람들에 대해서 예약을 취소하는 사람들이 있다. </h2>
+                <h2>즉, 아이들을 데리고 오면 취소는 거의 안하는 셈</h2>
+                <h2>하지만 성인들은 2명이 왔을 때 예약 취소를 하는 사람들이 생긴다. (연인 싸움???🤔)</h2>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
