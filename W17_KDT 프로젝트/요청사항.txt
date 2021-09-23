@@ -1,0 +1,38 @@
+음성의 잡음을 필터로 제거해주시기 바랍니다.
+또란 동영상에 사용된 캐릭터 모델은 아래 링크를 사용하였으므로
+동영상 설명란에 해당 저작권자에 대한 정보를 표시해주시기 바랍니다.
+
+오른쪽 아래 캐릭터(버츄얼 캐릭터)에 대한 저작권 : https://hub.vroid.com/en/characters/6036978563992518352/models/8780943346787222420
+6 페이지 
+첫번째 사진 ; 쥬쥬 옷입히기
+두번째 사진 : 슈의 뷰티메이커
+세번재 사진 : http://www.snunews.com/news/articleView.html?idxno=22006
+네번째 사진 : https://m.whoisnerdy.com/product/21fw-%EC%97%94%EC%99%80%EC%9D%B4-%ED%8A%B8%EB%9E%99-%ED%83%91-%EB%B8%94%EB%9E%99/3616/category/30/display/1/
+
+9 페이지 k-fashion dataset : https://aihub.or.kr/aidata/7988
+10 페이지 U² net : https://arxiv.org/pdf/2005.09007
+12~13 페이지 ADGAN : https://arxiv.org/pdf/2003.12267
+14~15 페이지 SinGAN : https://arxiv.org/pdf/1905.01164
+15 페이지 
+첫번째 아이콘 : https://www.iconfinder.com/icons/2661356/big_box_carry_carrying_heavy_moving_taking_icon
+두번째 이미지 : 고야드
+세번째 이미지 : ESL worksheet
+
+16~17 페이지 StarGAN : https://arxiv.org/pdf/1711.09020
+18 페이지 StarGAN v2 : https://arxiv.org/pdf/1912.01865
+22페이지 여자 아이콘 : Icons made by Freepik from www.flaticon.com
+26 페이지 시연 영상의 사진들
+첫번재 이미지 : https://rachelantonoff.com/products/hysterical-female-tee
+두번째 이미지 : https://www.pendleton-usa.com/product/womens-long-sleeve-silk-button-up-shirt/19109.html
+세번째 이미지 : https://onewelike.com/products/woman-basic-sweatshirt?variant=30813092228
+
+28 페이지
+첫번째 아이콘 : Icons made by Pixel perfect from www.flaticon.com
+두번째 아이콘 : Icons made by Freepik from www.flaticon.com
+세번재 아이콘 : Icons made by Freepik from www.flaticon.com
+
+29 페이지
+첫번재 사진 : https://c8.alamy.com/comp/2C5X45A/new-york-new-york-city-nyc-manhattan-midtown-times-square-toys-r-us-toy-store-chain-shopping-shopper-shoppers-shop-shops-market-markets-market-2C5X45A.jpg
+두번째 사진 : 영실업
+
+마지막 페이지 thanks for watching : thank you PNG Designed By CHENXIN from Pngtree.com
